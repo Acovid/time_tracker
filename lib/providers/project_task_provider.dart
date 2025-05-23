@@ -1,3 +1,6 @@
+import 'package:flutter/foundation.dart';
+import '../models/time_entry.dart';
+
 class TimeEntryProvider with ChangeNotifier {
   List<TimeEntry> _entries = [];
 

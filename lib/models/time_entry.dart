@@ -1,15 +1,15 @@
 class TimeEntry {
   final String id;
-  final String projectId;
-  final String taskId;
+  final String project;
+  final String task;
   final double totalTime;
   final DateTime date;
   final String notes;
 
   TimeEntry({
     required this.id,
-    required this.projectId,
-    required this.taskId,
+    required this.project,
+    required this.task,
     required this.totalTime,
     required this.date,
     required this.notes,
